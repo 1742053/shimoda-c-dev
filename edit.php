@@ -54,11 +54,11 @@ catch(Exception $e)
 場所<br />
 <input type="text" name="place" style="width:200px" value="<?php print $pro_place; ?>"><br />
 <br />
-<input type="submit" onclick="edit_check.php" value="修正">
+<input type="submit" onclick="edit_check.php" value="修正する">
 </form>
 <form method="post" action="delete.php">
 <input type="hidden" name="id" value="<?php print $pro_id; ?>">
-<input type="submit" onclick="delete.php" value="削除">
+<input type="submit" onclick="delete.php" value="削除する">
 <br />
 <input type="button" onclick="history.back()" value="戻る">
 <br />

@@ -45,11 +45,11 @@ print '落とし物一覧<br /><br />';
 
 //検索キーワード入力
 print '<form method="get" action="">';
-print '落とした日付を入力してください';
+print '落とし物が届いた日付';
 print '<br />';
 print '<input type="text" name="otoshimonodate" placeholder="例：20190101">';
 print '<br />';
-print '落とした物を入力してください';
+print '落とし物の名称';
 print '<br />';
 print '<input type="text" name="keyword" placeholder="例：筆箱">';
 print '<br />';
@@ -73,10 +73,10 @@ else{
 print '<br />';
 
 print '<form method="get" action="add.php">';
-print '<input type="submit" value="落とし物追加">';
+print '<input type="submit" value="落とし物を追加">';
 print '</form>';
 print '<form method="get" action="edit.php">';
-print '落とし物更新・削除:落とし物ID';
+print '落とし物更新・削除:落とし物ID入力';
 print '<input type="text" name="id" style="width:50px">';
 print '<input type="submit" value="決定">';
 print '</form>';

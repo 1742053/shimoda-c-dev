@@ -90,7 +90,7 @@ while(true)
 
 }
 print '<form method="get" action="text.php">';
-print '落とし物ID';
+print '落とし物IDを入力してください';
 print '<input type="text" name="id" style="width:50px">';
 print '<input type="submit" value="テキスト送信">';
 print '</form>';
